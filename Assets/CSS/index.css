@@ -14,6 +14,8 @@
     position: relative;
 }
 
+/*---nav link css styling---*/
+
 .nav{
     display: flex;
     padding: 2% 6%;
@@ -53,6 +55,8 @@
     width: 100%;
 }
 
+/*---main tile, subtitle styling on the main page---*/
+
 .text-box{
     width: 90%;
     color: #fff;
@@ -73,6 +77,8 @@
     color: #e2aa1d;
     margin-left: 40px;
 }
+
+/*---her button styling section---*/
 
 .hero-btn{
     display: inline-block;
