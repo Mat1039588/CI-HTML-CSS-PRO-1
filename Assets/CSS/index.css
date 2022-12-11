@@ -29,12 +29,47 @@
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 30px 22px;
     position: relative;
 }
 
 .nav-links ul li {
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 16px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(231, 169, 36);
+    display: block;
+    margin: auto;
+    transition: 0.8s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 80px;
+}
+
+.text-box p{
+    margin: 50px 0 40px;
+    font-size: 34px;
+    color: #e2aa1d;
+    margin-left: 40px;
 }
