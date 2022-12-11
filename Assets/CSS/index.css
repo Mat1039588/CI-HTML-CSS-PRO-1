@@ -68,8 +68,26 @@
 }
 
 .text-box p{
-    margin: 50px 0 40px;
+    margin: 10px 0 70px;
     font-size: 34px;
     color: #e2aa1d;
     margin-left: 40px;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 22px 34px;
+    font-size: 23px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    border: 1px solid #99e01e;
+    background: #e58d12;
+    transition: 1s;
 }
