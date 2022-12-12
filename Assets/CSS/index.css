@@ -100,9 +100,9 @@
 
 /*--- media query for small devices up to 700px---*/
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 900px){
     .text-box h1{
-        font-size: 35px;
+        font-size: 55px;
         margin-left: 80px;
     }
 
@@ -126,6 +126,8 @@
     }
 }
 
+/*---footer and social media icons sections---*/
+
 .footer{
     background-color: black;
     width: 100%;
@@ -142,4 +144,17 @@
 
 .footer p{
     color: #fff;
+}
+
+.icons .fa{
+    color: rgb(219, 189, 14);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+@media (max-width: 900px) {
+    .footer p{
+        font-size: 15px;
+    }
 }
