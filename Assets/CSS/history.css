@@ -35,7 +35,7 @@
     position: relative;
 }
 
-.nav-links ul li {
+.nav-links ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 16px;
@@ -78,28 +78,9 @@
     margin-left: 40px;
 }
 
-/*---her button styling section---*/
-
-.hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 22px 34px;
-    font-size: 23px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-
-.hero-btn:hover{
-    border: 1px solid #99e01e;
-    background: #e58d12;
-    transition: 1s;
-}
-
-nav .fa{
-    display: none;
+.history-box{
+    margin-left: 30px;
+    font-size: 30px;
 }
 /*--- media query for small devices up to 700px---*/
 
@@ -127,6 +108,14 @@ nav .fa{
         font-size: 15px;
         left: -30px;
     }
+    .history-box h1{
+        font-size: 20px;
+    
+    }
+    .history-box p{
+        font-size: 10px;
+        flex-direction: column;
+    }
 }
 
 .history-box h1{
@@ -139,4 +128,38 @@ nav .fa{
 
 .history-box p {
     color: #fff;
+}
+
+/*---footer and social media icons sections---*/
+
+.footer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer p{
+    color: #fff;
+}
+
+.icons .fa{
+    color: rgb(219, 189, 14);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+@media (max-width: 700px) {
+    .footer p{
+        font-size: 5px;
+        flex-direction: column;
+    }
 }

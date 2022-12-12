@@ -55,75 +55,9 @@
     width: 100%;
 }
 
-/*---main tile, subtitle styling on the main page---*/
-
-.text-box{
-    width: 90%;
+.taste-text{
     color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.text-box h1{
-    font-size: 80px;
-}
-
-.text-box p{
-    margin: 10px 0 70px;
-    font-size: 34px;
-    color: #e2aa1d;
     margin-left: 40px;
-}
-
-/*---hero button styling section---*/
-
-.hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 22px 34px;
-    font-size: 23px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-
-.hero-btn:hover{
-    border: 1px solid #99e01e;
-    background: #e58d12;
-    transition: 1s;
-}
-
-/*--- media query for small devices up to 700px---*/
-
-@media screen and (max-width: 900px){
-    .text-box h1{
-        font-size: 55px;
-        margin-left: 80px;
-    }
-
-    .text-box p{
-        font-size: 20px;
-        margin-left: 75px;
-    }
-
-    .hero-btn{
-        font-size: 15px;
-        margin-left: 75px;
-    }
-
-    .nav-links ul li{
-        list-style: none;
-        display: inline-block;
-        padding: 30px 10px;
-        position: relative;
-        font-size: 15px;
-        left: -30px;
-    }
 }
 
 /*---footer and social media icons sections---*/
@@ -153,8 +87,13 @@
     padding: 18px 0;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 400px) {
     .footer p{
         font-size: 15px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .taste-text{
+        font-size: 30px;
     }
 }
