@@ -98,9 +98,6 @@
     transition: 1s;
 }
 
-nav .fa{
-    display: none;
-}
 /*--- media query for small devices up to 700px---*/
 
 @media screen and (max-width: 700px){
@@ -127,4 +124,22 @@ nav .fa{
         font-size: 15px;
         left: -30px;
     }
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer p{
+    color: #fff;
 }
