@@ -55,129 +55,65 @@
     width: 100%;
 }
 
+/*---main tile, subtitle styling on the main page---*/
 
-.pagelist {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-
-.row {
-    margin-top: 5%;
-    display: inline-flex;
-    justify-content: space-around;
-}
-
-/*----what is it list----*/
-
-.what-col {
-    flex-basis: 20%;
-    border-radius: 10px;
-    margin-bottom: 100px;
-    position: relative;
-    overflow: hidden;
-}
-
-.what-col img {
-    width: 155%;
-    display: block;
-}
-
-.layer h3 {
-    background: transparent;
-    height: 30%;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    left: 0%;
-    transition: 0.5s;
-    text-align: center;
-
-}
-
-.layer:hover {
-    background: rgba(245, 167, 11, 0.7);
-}
-
-
-/*----taste and how to drink it list----*/
-
-.taste-col {
-    flex-basis: 20%;
-    border-radius: 10px;
-    margin-bottom: 100px;
-    position: relative;
-    overflow: hidden;
-}
-
-.taste-col img {
-    width: 150%;
-    display: block;
-}
-
-.layer h3 {
-    background: transparent;
-    height: 30%;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    left: 0%;
-    transition: 0.5s;
-    text-align: center;
-
-}
-
-.layer:hover {
-    background: rgba(245, 167, 11, 0.7);
-}
-
-/*----popular brands list----*/
-
-.popular-col {
-    flex-basis: 20%;
-    border-radius: 10px;
-    margin-bottom: 100px;
-    position: relative;
-    overflow: hidden;
-}
-
-.popular-col img {
-    width: 235%;
-    display: block;
-}
-
-.layer {
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 40%;
-    left: 0%;
-    transition: 0.5s;
-}
-
-.layer:hover {
-    background: rgba(245, 167, 11, 0.7);
-}
-
-.layer h3 {
-    width: 100%;
-    font-weight: 500;
+.text-box {
+    width: 90%;
     color: #fff;
-    font-size: 26px;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-.layer:hover h3 {
-    bottom: 49%;
+.text-box h1 {
+    font-size: 80px;
 }
 
-@media (max-width:700px) {
-    .row {
-        flex-direction: column;
+.text-box p {
+    margin: 10px 0 70px;
+    font-size: 34px;
+    color: #e2aa1d;
+    margin-left: 40px;
+}
+
+/*---hero button styling section---*/
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 22px 34px;
+    font-size: 23px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #99e01e;
+    background: #e58d12;
+    transition: 1s;
+}
+
+/*--- media query for small devices up to 700px---*/
+
+@media screen and (max-width: 900px) {
+    .text-box h1 {
+        font-size: 55px;
+        margin-left: 80px;
+    }
+
+    .text-box p {
+        font-size: 20px;
+        margin-left: 75px;
+    }
+
+    .hero-btn {
+        font-size: 15px;
+        margin-left: 75px;
     }
 
     .nav-links ul li {
@@ -189,8 +125,6 @@
         left: -30px;
     }
 }
-
-/*---footer---*/
 
 /*---footer and social media icons sections---*/
 
